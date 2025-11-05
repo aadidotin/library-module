@@ -2,9 +2,9 @@
 
 namespace Aadi\LibraryModule\Tests;
 
+use Aadi\LibraryModule\LibraryModuleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aadi\LibraryModule\LibraryModuleServiceProvider;
 
 class TestCase extends Orchestra
 {

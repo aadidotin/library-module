@@ -2,9 +2,9 @@
 
 namespace Aadi\LibraryModule;
 
+use Aadi\LibraryModule\Commands\LibraryModuleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aadi\LibraryModule\Commands\LibraryModuleCommand;
 
 class LibraryModuleServiceProvider extends PackageServiceProvider
 {
